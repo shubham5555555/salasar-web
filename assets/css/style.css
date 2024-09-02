@@ -554,7 +554,7 @@ h1, .heading-1 {
   line-height: 67px;
 }
 h2{
-  color: white;
+  color: black;
 }
 
 h2, .heading-2 {
@@ -7331,7 +7331,7 @@ a.icon-socials:hover {
 
 @media (min-width: 768px) { 
   .title-text{
-    font-size: 46px;
+    font-size: 36px;
     line-height: 60px;
   }
   .counter-text{
@@ -7351,14 +7351,14 @@ a.icon-socials:hover {
 
 @media (min-width: 1200px) { 
   .title-text{
-    font-size: 40px;
+    font-size: 38px;
   }
  }
 
 
 @media (min-width: 1400px) { 
   .title-text{
-    font-size: 50px;
+    font-size: 42px;
   }
  }
 
@@ -7635,7 +7635,7 @@ a.icon-socials:hover {
   height: 100%;
 }
 .hero-5 .banner-image-main .img-bg {
-  background: url(../imgs/template/hero-img.webp) no-repeat bottom right;
+  background: url(../imgs/template/macbook.webp) no-repeat bottom right;
   background-size: contain;
   width: 885px;
   height: 680px;
@@ -9384,7 +9384,7 @@ a.icon-socials:hover {
   h2, .heading-2 {
     font-size: 30px;
     line-height: 40px;
-    color: white;
+    color: black;
   }
   .box-sliders-award-bottom {
     padding: 0px 15px;
@@ -10301,3 +10301,63 @@ a.icon-socials:hover {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
+.sjh-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.sjh-title {
+  font-size: 48px;
+  color: black;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.sjh-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sjh-step {
+  background-color: #fff;
+  border-radius: 8px;
+ 
+  padding: 20px;
+  margin: 5px;
+  flex: 1;
+  min-width: 210px;
+  max-width: 260px;
+  text-align: center;
+}
+
+.sjh-step img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.sjh-step h3 {
+  font-size: 22px;
+  color: #333;
+}
+
+.sjh-step p {
+  font-size: 15px;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sjh-steps {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .sjh-step {
+      max-width: 90%;
+  }
+}
