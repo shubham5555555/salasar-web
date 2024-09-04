@@ -10317,11 +10317,27 @@ a.icon-socials:hover {
 }
 
 .sjh-title {
-  font-size: 48px;
   color: black;
   margin-bottom: 60px;
   margin-top: 30px;
 }
+@media (min-width: 576px) {  
+.sjh-title{
+  font-size: 34px;
+}
+}
+
+@media (min-width: 768px) { 
+  .sjh-title{
+    font-size: 42px;
+  }
+ }
+
+@media (min-width: 992px) { 
+  .sjh-title{
+    font-size: 48px;
+  }
+ }
 
 .sjh-steps {
   display: flex;
