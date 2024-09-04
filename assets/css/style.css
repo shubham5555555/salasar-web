@@ -10433,7 +10433,7 @@ a.icon-socials:hover {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
-  padding: 0px;
+  padding: 20px;
   width: 100%;
   max-width: 1268px;
   margin: 100px auto;
