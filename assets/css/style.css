@@ -7587,6 +7587,9 @@ a.icon-socials:hover {
 .box-newsletter .newsletter-right {
   max-width: 606px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .box-newsletter .newsletter-right .form-control {
   height: 66px;
@@ -10360,4 +10363,37 @@ a.icon-socials:hover {
   .sjh-step {
       max-width: 90%;
   }
+}
+.header-buttons{
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+
+}
+.btn-sign-in{
+  border: 1px solid #FFA300;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  font-weight: 500;
+  color: #FFA300 ;
+
+
+  border-radius: 5px;
+}
+ .btn-sign-in:hover{
+  background-color: #FFA300;
+  color: white;
+}
+.btn-log-in:hover{
+  background-color: #FFA300;
+  color: white;
+}
+.btn-log-in{
+  border: 1px solid #FFA300;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  color: #FFA300 ;
+  font-weight: 500;
+  border-radius: 5px;
+
 }
