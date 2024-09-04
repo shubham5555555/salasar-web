@@ -1604,6 +1604,10 @@ body {
   font-weight: 500;
   background-color: #FFA300;
 }
+.btn-contact:hover{
+  background-color: #FFA300 !important;
+  color: black !important;
+}
 
 .btn.btn-subscribe svg {
   fill: #ffffff;
@@ -3307,7 +3311,7 @@ label {
 .header .main-menu li {
   float: left;
   position: relative;
-  padding: 0px 15px;
+  padding: 0px 5px;
 }
 .header .main-menu li.has-children > a::after {
   content: "";
@@ -10375,6 +10379,7 @@ a.icon-socials:hover {
   padding: 5px 10px;
   margin: 0px 10px;
   font-weight: 500;
+  text-decoration: none;
   color: #FFA300 ;
 
 
@@ -10393,6 +10398,7 @@ a.icon-socials:hover {
   padding: 5px 10px;
   margin: 0px 10px;
   color: #FFA300 ;
+  text-decoration: none;
   font-weight: 500;
   border-radius: 5px;
 
