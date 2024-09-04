@@ -1321,7 +1321,7 @@ body {
   margin-left: 5px;
 }
 .btn.btn-get-started:hover {
-  background: linear-gradient(236deg, #F45214 0%, #FFA300 100%);
+  background: linear-gradient(236deg, #F2AF29 0%, #FFA300 100%);
 }
 .btn.btn-popular {
   border-radius: 4px;
@@ -1330,7 +1330,7 @@ body {
   line-height: 18px;
   font-family: "Urbanist", sans-serif;
   font-weight: 400;
-  background: linear-gradient(236deg, #F45214 0%, #FFA300 100%);
+  background: linear-gradient(236deg, #F2AF29 0%, #FFA300 100%);
 }
 .btn.btn-popular:hover {
   color: #191919;
@@ -1427,8 +1427,8 @@ body {
 }
 .btn.btn-brand-4-sm {
   padding: 4px 21px;
-  background-color: #F45214;
-  border: 1px solid #F45214;
+  background-color: #F2AF29;
+  border: 1px solid #F2AF29;
   border-radius: 36px;
   color: white;
   font-size: 16px;
@@ -2610,7 +2610,7 @@ label {
   display: inline-block;
   width: 100%;
 }
-.card-preparing-2 .card-image svg {
+.card-preparing-2  .card-image svg {
   fill: #FFA300;
 }
 .card-preparing-2 .card-info {
@@ -4196,7 +4196,7 @@ a.icon-socials:last-child {
 a.icon-socials:hover {
   transform: translateY(-3px);
   transition-duration: 0.2s;
-  background: linear-gradient(236deg, #22D1EE 0%, #F45214 100%);
+  background: linear-gradient(236deg, #22D1EE 0%, #F2AF29 100%);
 }
 
 .title-follow {
@@ -7006,7 +7006,7 @@ a.icon-socials:hover {
   margin-bottom: 9px;
 }
 .card-feature-2:hover .card-image {
-  background-color: #F45214;
+  background-color: #F2AF29;
 }
 .card-feature-2.card-feature-brand-4 {
   margin-bottom: 50px;
@@ -7754,7 +7754,7 @@ a.icon-socials:hover {
   height: 42px;
   width: 42px;
   margin-right: 10px;
-  background-color: #F45214;
+  background-color: #F2AF29;
   border-radius: 50%;
   background-image: url(../imgs/page/homepage1/strate.svg);
   background-position: center;
@@ -10328,7 +10328,9 @@ a.icon-socials:hover {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
+.sjh-step img svg  path{
+  fill: white;
+}
 .sjh-step {
   background-color: #fff;
   border-radius: 8px;
@@ -10342,9 +10344,16 @@ a.icon-socials:hover {
 }
 
 .sjh-step img {
+  background: #ECEEF2;
+  padding: 10px;
   width: 50px;
   height: 50px;
   margin-bottom: 15px;
+  border-radius: 5px;
+}
+.sjh-step .svg-image:hover{
+  background: #F2AF29;
+  fill: white;
 }
 
 .sjh-step h3 {
@@ -10402,4 +10411,108 @@ a.icon-socials:hover {
   font-weight: 500;
   border-radius: 5px;
 
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 0px;
+  width: 100%;
+  max-width: 1268px;
+  margin: 100px auto;
+}
+
+.aliceblue-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+  height: 250px;
+}
+
+.ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: orange;
+  color: white;
+  padding: 5px 15px;
+  font-size: 12px;
+  border-radius: 0 10px 0 10px;
+}
+
+.title {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.open-demat {
+  
+  color: white;
+  border: 1px solid orange;
+  background: white;
+  border-radius: 20px;
+  color: orange;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+.open-demat:hover {
+  background-color: orange;
+  color: white;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+  .card-container {
+      grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card-container {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-container {
+      grid-template-columns: 1fr;
+  }
+  
+  .aliceblue-card {
+      height: 300px;
+  }
+}
+.sjh-image svg{
+  fill: green;
+}
+.sjh-image svg {
+  fill: #FFA300;
+}
+.svg-image{
+  fill: #F2AF29;
+  background: #ECEEF2;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 5px;
 }
